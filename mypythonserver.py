@@ -10,4 +10,4 @@ def mainpage():
 	return "Hello from my python server"
 
 if(__name__=='__main__'):
-	app.run(host='localhost',debug=True)
+	app.run(host='192.168.11.188',port=5000,debug=True)
